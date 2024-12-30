@@ -31,3 +31,8 @@ export const InputContainer = styled.div`
     gap: 10px;
 `
 
+export const SignInButtonLayout = styled.div`
+    width: 100%;
+    height: 50px;
+`;
+

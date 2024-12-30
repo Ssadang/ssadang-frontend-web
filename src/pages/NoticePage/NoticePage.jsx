@@ -14,13 +14,25 @@ function NoticePage() {
             <ManageContainerTitle>공지사항 관리</ManageContainerTitle>
             <ButtonListContainer>
               <ButtonLayout>
-                <SubmitButtonComponent onClick={() => {alert('등록 버튼 클릭')}} text='등록'/>
+                <SubmitButtonComponent 
+                  onClick={() => {alert('등록 버튼 클릭')}} 
+                  text='등록'
+                  fontSize={14}
+                />
               </ButtonLayout>
               <ButtonLayout>
-                <SubmitButtonComponent onClick={() => {alert('수정 버튼 클릭')}} text='수정'/>
+                <SubmitButtonComponent 
+                  onClick={() => {alert('수정 버튼 클릭')}} 
+                  text='수정'
+                  fontSize={14}
+                />
               </ButtonLayout>
               <ButtonLayout>
-                <SubmitButtonComponent onClick={() => {alert('삭제 버튼 클릭')}} text='삭제'/>
+                <SubmitButtonComponent 
+                  onClick={() => {alert('삭제 버튼 클릭')}} 
+                  text='삭제'
+                  fontSize={14}
+                />
               </ButtonLayout>
             </ButtonListContainer>
           </ManageContainerTop>

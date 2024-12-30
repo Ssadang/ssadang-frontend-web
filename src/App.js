@@ -5,6 +5,7 @@ import reset from 'styled-reset';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import AuthRoute from './routes/AuthRoute/AuthRoute';
 import Header from './layouts/Header/Header';
+import NoticeRoute from './routes/NoticeRoute/NoticeRoute';
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/*' element={
             <>
               <AuthRoute />
+              <NoticeRoute />
             </>
           }/>
         </Routes>

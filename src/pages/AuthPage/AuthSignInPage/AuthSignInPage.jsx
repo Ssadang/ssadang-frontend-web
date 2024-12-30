@@ -35,7 +35,7 @@ function AuthSignInPage() {
         <>
             <Container>
                 <ContentBox>
-                    <Title>관리자 로그인</Title>
+                    <Title>SSADANG 관리자 로그인</Title>
                     <SubTitle>웹 관리자모드 로그인하세요.</SubTitle>
                     <InputContainer>
                         <InputComponent

@@ -8,6 +8,7 @@ export const SubmitButton = styled.button`
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    font-size: ${(props) => `${props.fontSize}px`};
     font-weight: bold;
     color: #000000;
     background-color: #3ebeee;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, ContentBox, InputContainer, SubTitle, Title } from './style';
+import { Container, ContentBox, InputContainer, SignInButtonLayout, SubTitle, Title } from './style';
 import InputComponent from '../../../components/InputComponent/InputComponent';
 import { useNavigate } from 'react-router-dom';
 import SubmitButtonComponent from '../../../components/SubmitButtonComponent/SubmitButtonComponent';
@@ -50,10 +50,13 @@ function AuthSignInPage() {
                             onChange={passwordOnChange}
                             placeholder='관리자 비밀번호 입력'
                         />
-                        <SubmitButtonComponent
-                            onClick={SignInButtonClickHandler}
-                            text='로그인'
-                        />
+                        <SignInButtonLayout>
+                            <SubmitButtonComponent
+                                onClick={SignInButtonClickHandler}
+                                text='로그인'
+                                fontSize={26}
+                            />
+                        </SignInButtonLayout>
                     </InputContainer>
                 </ContentBox>
             </Container>
